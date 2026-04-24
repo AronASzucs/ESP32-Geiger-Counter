@@ -4299,6 +4299,251 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Switching:MC34063AD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MC34063AD"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 1.27 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "smps buck boost inverting"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MC34063AD_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MC34063AD_1_1"
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SwC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "SwE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "TC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "Vfb"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "Ipk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "DC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:TPS63031DSK"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5654,10 +5899,22 @@
 		(uuid "fc199531-9080-4853-b7a0-546b4b358ba5")
 	)
 	(junction
+		(at 287.02 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02aa2c11-5cfa-4fcf-a423-2d1d1e97636e")
+	)
+	(junction
 		(at 257.81 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a348888-53fd-4871-ba66-76e96c001532")
+	)
+	(junction
+		(at 351.79 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12aaea3d-196d-4e5c-8934-0dd4697adfb0")
 	)
 	(junction
 		(at 69.85 68.58)
@@ -5676,6 +5933,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "203943ba-9c84-4f51-ab32-67318f0be030")
+	)
+	(junction
+		(at 351.79 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2751eadc-ec41-4e25-87b0-3b90e30df91c")
 	)
 	(junction
 		(at 104.14 63.5)
@@ -5720,10 +5983,22 @@
 		(uuid "4ac4f497-e0f2-4b07-8a67-c5294e51c766")
 	)
 	(junction
+		(at 351.79 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c48b54b-3a80-4f7e-8159-987b708859bc")
+	)
+	(junction
 		(at 29.21 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f67b497-a2ad-4d6d-a53e-3e20dadf3476")
+	)
+	(junction
+		(at 335.28 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65956b7d-0717-441e-a6ba-0a4de934c3f8")
 	)
 	(junction
 		(at 52.07 109.22)
@@ -5762,10 +6037,10 @@
 		(uuid "7f866cf2-becb-42d9-8989-0d47cb491feb")
 	)
 	(junction
-		(at 226.06 132.08)
+		(at 226.06 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8675a605-8bbb-46b1-b87f-dc9c1e39e0ce")
+		(uuid "87b756cd-fe05-4b37-b986-53044fb971b5")
 	)
 	(junction
 		(at 142.24 133.35)
@@ -5784,6 +6059,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "950bce24-9f60-48f8-bc9a-a258694af0de")
+	)
+	(junction
+		(at 351.79 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "975e4acf-e3dd-44db-bc18-b8a6eea7e1e6")
 	)
 	(junction
 		(at 85.09 50.8)
@@ -5834,6 +6115,12 @@
 		(uuid "c11aeff6-1833-417a-aa62-a7922b7766ba")
 	)
 	(junction
+		(at 226.06 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de03ffae-58b5-42cd-8e9d-53d01d5f6df9")
+	)
+	(junction
 		(at 180.34 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5858,6 +6145,12 @@
 		(uuid "f0077d18-c290-4505-af0e-eedf8f852063")
 	)
 	(junction
+		(at 299.72 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0a52cf1-4151-45ba-bf4f-7aaec670d164")
+	)
+	(junction
 		(at 87.63 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5874,6 +6167,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2240e6b-3c99-4879-a5b3-0836b3a623eb")
+	)
+	(junction
+		(at 311.15 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f25be5a1-6132-4d52-9094-7f183f352e13")
 	)
 	(no_connect
 		(at 85.09 60.96)
@@ -5955,6 +6254,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 171.45) (xy 335.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0876aef1-c6b5-4b92-9eb8-06d6846b2c8c")
+	)
+	(wire
+		(pts
 			(xy 95.25 30.48) (xy 87.63 30.48)
 		)
 		(stroke
@@ -6025,7 +6334,17 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 128.27) (xy 226.06 132.08)
+			(xy 334.01 132.08) (xy 351.79 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166e8649-d093-4e39-bdd0-4cb093868a25")
+	)
+	(wire
+		(pts
+			(xy 226.06 121.92) (xy 226.06 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6072,6 +6391,16 @@
 			(type default)
 		)
 		(uuid "1f18c7b0-de2c-4388-a213-09ec8cd279c8")
+	)
+	(wire
+		(pts
+			(xy 281.94 143.51) (xy 287.02 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fde58e8-29e6-46c3-bcf4-9b0bdb16e49e")
 	)
 	(wire
 		(pts
@@ -6132,6 +6461,16 @@
 			(type default)
 		)
 		(uuid "28a0cb29-a5a8-44c9-9767-ea43245c411a")
+	)
+	(wire
+		(pts
+			(xy 351.79 139.7) (xy 351.79 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298a4831-857e-4015-bf7d-40d64c4525ac")
 	)
 	(wire
 		(pts
@@ -6255,6 +6594,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 139.7) (xy 351.79 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b91e4fa-aba1-47ee-a303-6d03c8c99a88")
+	)
+	(wire
+		(pts
 			(xy 154.94 46.99) (xy 154.94 53.34)
 		)
 		(stroke
@@ -6335,6 +6684,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 154.94) (xy 351.79 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8a69b4-6356-4e18-982c-f0c0b363937a")
+	)
+	(wire
+		(pts
 			(xy 72.39 133.35) (xy 82.55 133.35)
 		)
 		(stroke
@@ -6362,6 +6721,16 @@
 			(type default)
 		)
 		(uuid "4e758635-5c9c-42e1-8623-f88a9566ff1e")
+	)
+	(wire
+		(pts
+			(xy 226.06 123.19) (xy 226.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5240ecda-421f-45b0-993f-b5e0be7dc42f")
 	)
 	(wire
 		(pts
@@ -6595,6 +6964,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 161.29) (xy 325.12 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708243c2-3414-495d-afd1-ba633800f6dc")
+	)
+	(wire
+		(pts
 			(xy 241.3 143.51) (xy 250.19 143.51)
 		)
 		(stroke
@@ -6665,6 +7044,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 143.51) (xy 311.15 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed1e4f0-a90e-4e4b-9146-7ab523ea7166")
+	)
+	(wire
+		(pts
 			(xy 85.09 43.18) (xy 85.09 45.72)
 		)
 		(stroke
@@ -6692,6 +7081,16 @@
 			(type default)
 		)
 		(uuid "81e7ebd0-4127-4515-92da-817b2f4097fc")
+	)
+	(wire
+		(pts
+			(xy 302.26 153.67) (xy 297.18 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84dd99df-b804-4799-aafa-bd54fe763f1c")
 	)
 	(wire
 		(pts
@@ -6765,6 +7164,36 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 171.45) (xy 335.28 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91adaded-6357-4352-9bfd-c2fdfba92844")
+	)
+	(wire
+		(pts
+			(xy 345.44 148.59) (xy 335.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b5652b-614a-4772-9e3c-6768a3961456")
+	)
+	(wire
+		(pts
+			(xy 345.44 154.94) (xy 345.44 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91dcefba-2594-48a0-a8f7-8ca005332199")
+	)
+	(wire
+		(pts
 			(xy 151.13 133.35) (xy 154.94 133.35)
 		)
 		(stroke
@@ -6795,6 +7224,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 171.45) (xy 346.71 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9383dca3-b108-45ab-bb8f-6ad37d8e8dd5")
+	)
+	(wire
+		(pts
 			(xy 40.64 130.81) (xy 46.99 130.81)
 		)
 		(stroke
@@ -6822,6 +7261,16 @@
 			(type default)
 		)
 		(uuid "9f39bd7b-2546-437e-81ef-3e8183ddc84c")
+	)
+	(wire
+		(pts
+			(xy 335.28 146.05) (xy 341.63 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f68a622-3d5a-4471-89b6-cf8fced28d99")
 	)
 	(wire
 		(pts
@@ -6882,6 +7331,16 @@
 			(type default)
 		)
 		(uuid "a3c3d341-d683-40f5-8dc6-fa317bfd6f73")
+	)
+	(wire
+		(pts
+			(xy 351.79 132.08) (xy 351.79 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c0d2ef-927b-4eb4-b2dc-ba516328cfff")
 	)
 	(wire
 		(pts
@@ -7035,6 +7494,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 143.51) (xy 314.96 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea61c90-a9c3-4af6-96f9-6bd0dd48dcb4")
+	)
+	(wire
+		(pts
 			(xy 85.09 50.8) (xy 88.9 50.8)
 		)
 		(stroke
@@ -7055,6 +7524,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 181.61) (xy 335.28 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8991d1e-dfaf-4ebc-bbe8-de9760b7529d")
+	)
+	(wire
+		(pts
 			(xy 40.64 121.92) (xy 40.64 123.19)
 		)
 		(stroke
@@ -7072,6 +7551,36 @@
 			(type default)
 		)
 		(uuid "cb3ea7b2-1c1d-47ff-966c-fc3eee846aac")
+	)
+	(wire
+		(pts
+			(xy 351.79 171.45) (xy 351.79 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9bf3ac-23ef-410e-8520-988c4c08b8d4")
+	)
+	(wire
+		(pts
+			(xy 299.72 143.51) (xy 311.15 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d045bcad-18df-4adf-99a7-81928ca65392")
+	)
+	(wire
+		(pts
+			(xy 335.28 153.67) (xy 337.82 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d189e6-2a67-4a98-8f1c-72c6a04910cd")
 	)
 	(wire
 		(pts
@@ -7155,6 +7664,26 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 146.05) (xy 351.79 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabfaa6b-fdcc-4b2e-adc1-74a0ac19f356")
+	)
+	(wire
+		(pts
+			(xy 339.09 171.45) (xy 335.28 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae32813-5dc9-4558-817a-6cbbe93232d1")
+	)
+	(wire
+		(pts
 			(xy 162.56 138.43) (xy 162.56 144.78)
 		)
 		(stroke
@@ -7172,6 +7701,16 @@
 			(type default)
 		)
 		(uuid "dc05f887-ab77-4252-8feb-314e654823dd")
+	)
+	(wire
+		(pts
+			(xy 351.79 166.37) (xy 351.79 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0e743e-4222-43e1-a997-23e9ef291605")
 	)
 	(wire
 		(pts
@@ -7222,6 +7761,16 @@
 			(type default)
 		)
 		(uuid "e0bc1e9f-a5fe-474b-bb52-2678bb085447")
+	)
+	(wire
+		(pts
+			(xy 287.02 143.51) (xy 299.72 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e3a0dc-2eb6-41f2-b6e7-f8baf0f0e8e6")
 	)
 	(wire
 		(pts
@@ -7285,6 +7834,26 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 171.45) (xy 363.22 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0cecf43-a38e-4031-ab13-8fc27d4704af")
+	)
+	(wire
+		(pts
+			(xy 309.88 153.67) (xy 314.96 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bff5bc-9546-4888-9e89-327b9dfb7b23")
+	)
+	(wire
+		(pts
 			(xy 236.22 102.87) (xy 238.76 102.87)
 		)
 		(stroke
@@ -7292,6 +7861,26 @@
 			(type default)
 		)
 		(uuid "f2cc9aac-68a1-434d-8435-1f74c4dda991")
+	)
+	(wire
+		(pts
+			(xy 349.25 146.05) (xy 351.79 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3acdbe8-9cbb-4330-a18a-b927f4982e7f")
+	)
+	(wire
+		(pts
+			(xy 335.28 143.51) (xy 335.28 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f55951-cc58-445d-b933-859987b1ca7f")
 	)
 	(wire
 		(pts
@@ -7322,6 +7911,26 @@
 			(type default)
 		)
 		(uuid "faad2e42-efc2-4ac4-ba02-f143cb639374")
+	)
+	(wire
+		(pts
+			(xy 311.15 132.08) (xy 326.39 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8c6751-9891-4b21-a11c-6ce5d5786bcc")
+	)
+	(wire
+		(pts
+			(xy 351.79 154.94) (xy 345.44 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd91fa05-031a-4119-8e4e-c71a3a9c09df")
 	)
 	(wire
 		(pts
@@ -7392,6 +8001,16 @@
 			(justify right bottom)
 		)
 		(uuid "2b41c8c4-6338-45cc-8abc-0513b8c4ddda")
+	)
+	(label "BOOST_OUT"
+		(at 363.22 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4979d57c-5f98-4927-ba82-5b835c878531")
 	)
 	(label "VBAT"
 		(at 185.42 62.23 0)
@@ -7594,6 +8213,85 @@
 		(uuid "fe7453c9-ef16-4d18-8365-47f6240837e4")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 342.9 171.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "039b5421-1bd1-4a1f-b8e2-5959c373d9b7")
+		(property "Reference" "R14"
+			(at 345.694 169.418 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "62K"
+			(at 341.122 169.418 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 173.228 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 342.9 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "802ef05c-a1be-408d-a9de-243fb2e94e22")
+		)
+		(pin "1"
+			(uuid "d97fe86c-a03c-4c43-be6f-3d25dce22eca")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 69.85 69.85 0)
 		(unit 1)
@@ -7666,6 +8364,85 @@
 			(project "ESP32-Geiger-Counter"
 				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 297.18 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0562e8e6-d2c2-4986-8110-c3ecb485bba8")
+		(property "Reference" "#PWR037"
+			(at 290.83 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 293.37 153.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 297.18 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03a60ce5-d1b8-4f83-a301-795d3439c4a5")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7751,6 +8528,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 351.79 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b00e104-bcdb-4166-8176-34ccf2eab80c")
+		(property "Reference" "C18"
+			(at 357.886 177.546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47uF 100V"
+			(at 360.172 180.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 352.7552 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 351.79 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2c9d3b16-ce4c-42aa-af94-ff50e1f1a6a1")
+		)
+		(pin "1"
+			(uuid "ab438787-e3bb-4624-b45a-60140956b53e")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 25.4 114.3 180)
 		(unit 1)
@@ -7829,8 +8685,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:MC34063AD")
+		(at 325.12 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f320762-8be5-4ce1-ae3e-e38110964cd3")
+		(property "Reference" "U7"
+			(at 325.12 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC34063AD"
+			(at 325.12 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 326.39 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF"
+			(at 337.82 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8"
+			(at 325.12 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "73fc0a3b-a82e-48ae-8bb9-f1136cc1058d")
+		)
+		(pin "6"
+			(uuid "3cb8eead-c922-4b01-bf05-0cb1410b0d66")
+		)
+		(pin "7"
+			(uuid "926c69f8-15b3-4aa7-8bda-29acfb813bdb")
+		)
+		(pin "5"
+			(uuid "3ef8e4b6-71ff-4ecf-8e1c-2fb4d4b41eda")
+		)
+		(pin "3"
+			(uuid "d5c7ae66-3221-4b76-876f-35801acc06b8")
+		)
+		(pin "8"
+			(uuid "86420167-91a1-4b85-91f6-09a84df69030")
+		)
+		(pin "1"
+			(uuid "c7295de8-64aa-4782-a066-57bddf860d77")
+		)
+		(pin "4"
+			(uuid "d2769347-d408-4d6f-b4b0-6304cc6013bb")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 226.06 128.27 0)
+		(at 226.06 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7841,7 +8796,7 @@
 		(fields_autoplaced yes)
 		(uuid "10c3ab08-eea1-451f-9a50-3484a2472147")
 		(property "Reference" "#PWR021"
-			(at 226.06 132.08 0)
+			(at 226.06 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7852,7 +8807,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 226.06 123.19 0)
+			(at 226.06 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7862,7 +8817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 128.27 0)
+			(at 226.06 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7873,7 +8828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 128.27 0)
+			(at 226.06 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7884,7 +8839,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 226.06 128.27 0)
+			(at 226.06 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8219,6 +9174,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 351.79 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a4842d9-62b8-4175-8884-519bdcd7f1ab")
+		(property "Reference" "L2"
+			(at 353.06 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1mH 50mA+"
+			(at 353.06 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 351.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7c6abc60-eaec-47da-a03f-c0c212138ce3")
+		)
+		(pin "1"
+			(uuid "608044c3-802a-4dd6-a4ea-97f75d1925d2")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 214.63 30.48 180)
 		(unit 1)
@@ -8534,6 +9571,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 306.07 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23fdd82f-9c91-412e-bd31-b742cab06b4e")
+		(property "Reference" "C17"
+			(at 305.562 160.274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "390pF"
+			(at 306.578 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 154.6352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 306.07 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "28eae762-feab-4625-8bf4-13fb699da3d4")
+		)
+		(pin "1"
+			(uuid "4dbdaa28-09fd-4bd6-b38b-603b3ca39647")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:Q_NPN_BCE")
 		(at 160.02 133.35 0)
 		(unit 1)
@@ -8635,6 +9751,163 @@
 			(project "ESP32-Geiger-Counter"
 				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d98fe11-dfea-4176-a3df-ddee04f24e33")
+		(property "Reference" "#PWR035"
+			(at 240.03 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 123.1899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72ce155e-efb0-4eb2-a3fd-ca2035077eea")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 299.72 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "309ca454-871e-4887-be08-21d600355b3d")
+		(property "Reference" "#PWR041"
+			(at 299.72 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 299.72 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 299.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99168228-0ca8-420a-85a6-fae4088b1cbf")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9909,6 +11182,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 287.02 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49969bb9-e9f9-4a0b-9113-f752da65ac1f")
+		(property "Reference" "#PWR040"
+			(at 287.02 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 287.02 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 287.02 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "acce5674-ac58-47b3-bcd2-fa51f5f485e8")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 180.34 54.61 180)
 		(unit 1)
 		(body_style 1)
@@ -9980,6 +11331,85 @@
 			(project "ESP32-Geiger-Counter"
 				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 281.94 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d6005f7-5182-44c2-a5e6-72cd7bd1ed6b")
+		(property "Reference" "#PWR034"
+			(at 285.75 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 278.13 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 281.94 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6ecbd86-998b-4226-be95-74d803460edf")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10145,7 +11575,7 @@
 	)
 	(symbol
 		(lib_id "Custom Parts:Geiger_Mueller_Tube")
-		(at 307.34 147.32 0)
+		(at 346.71 212.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10156,7 +11586,7 @@
 		(fields_autoplaced yes)
 		(uuid "5138fcff-cbaf-4f44-a82b-44d50a25cbaf")
 		(property "Reference" "U5"
-			(at 316.23 147.3199 0)
+			(at 355.6 212.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10167,7 +11597,7 @@
 			)
 		)
 		(property "Value" "Geiger Mueller Tube"
-			(at 316.23 149.8599 0)
+			(at 355.6 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10178,7 +11608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 147.32 0)
+			(at 346.71 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10189,7 +11619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 147.32 0)
+			(at 346.71 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10200,7 +11630,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 307.34 147.32 0)
+			(at 346.71 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10481,6 +11911,85 @@
 			(project "ESP32-Geiger-Counter"
 				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 335.28 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56d18ca7-320b-4def-b9d0-48863c60fa88")
+		(property "Reference" "R15"
+			(at 338.836 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.7K"
+			(at 339.344 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 333.502 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 335.28 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4924dd57-5984-4266-8b63-c2549173bec6")
+		)
+		(pin "1"
+			(uuid "5fca425b-6503-4ffb-832c-69bf5e4de6a7")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10874,6 +12383,85 @@
 			(project "ESP32-Geiger-Counter"
 				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 287.02 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64ac4941-97cd-4b7b-a113-04927c429abe")
+		(property "Reference" "C19"
+			(at 293.116 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47uF"
+			(at 293.116 140.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.9852 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 287.02 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "db4a88a2-29cf-44b5-a114-f799854c4ef4")
+		)
+		(pin "1"
+			(uuid "a9d0a81a-e4b0-41bd-ba30-b8c37f1490c6")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -11690,6 +13278,84 @@
 			(project "ESP32-Geiger-Counter"
 				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 325.12 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84dd3450-2f34-4238-bfa4-fa892a4ff307")
+		(property "Reference" "#PWR036"
+			(at 325.12 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 325.12 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 325.12 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "018a1429-a216-4ab7-892b-e1f709b653e3")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12861,6 +14527,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 337.82 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0e401b0-6884-4ca6-bedb-e533430ecc84")
+		(property "Reference" "#PWR038"
+			(at 344.17 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.312 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba66eb53-7dc6-4440-9701-3d3ba3a784d0")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 162.56 46.99 90)
 		(unit 1)
 		(body_style 1)
@@ -12933,6 +14677,85 @@
 			(project "ESP32-Geiger-Counter"
 				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b625a88f-89bb-4523-aa93-ed13ea242178")
+		(property "Reference" "C16"
+			(at 235.458 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 230.378 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 124.1552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b845ec82-84a5-4f6e-a84f-28ab2551d298")
+		)
+		(pin "1"
+			(uuid "7f9eba8e-ef0d-491d-9e7d-19c3e4609dfd")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -13761,6 +15584,243 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 299.72 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2739b91-4ef9-47fa-a7dd-11c48b3f565c")
+		(property "Reference" "C20"
+			(at 305.816 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 305.816 140.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.6852 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 299.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "26458235-859e-4fde-bb3c-36cd7fc04887")
+		)
+		(pin "1"
+			(uuid "77517d38-8bab-4723-ad9b-4cc4821f9768")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 330.2 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2cbd882-3ec8-402c-a2e7-c2358c3b670a")
+		(property "Reference" "R13"
+			(at 329.692 127.508 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12"
+			(at 329.692 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 133.858 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 330.2 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a5f1bd6c-2676-4d48-9a30-cea60666a342")
+		)
+		(pin "1"
+			(uuid "5c259adf-d038-4cd6-b086-8683e3c8d0a3")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 345.44 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e387e608-1e60-4f73-9a7c-db50cc94a78c")
+		(property "Reference" "R12"
+			(at 348.234 144.018 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "180"
+			(at 343.662 144.018 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 147.828 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 345.44 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fb4d6745-c170-4304-87b6-ab6b082e9948")
+		)
+		(pin "1"
+			(uuid "27cee089-d124-460a-9fd3-dc02368a5d63")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 236.22 105.41 0)
 		(unit 1)
@@ -13833,6 +15893,84 @@
 			(project "ESP32-Geiger-Counter"
 				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 335.28 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1c36c80-abf1-41d1-ba82-2c42d8c0600a")
+		(property "Reference" "#PWR039"
+			(at 335.28 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 335.28 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 335.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87889fee-a596-416a-9507-d0b859541537")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14227,6 +16365,88 @@
 			(project "ESP32-Geiger-Counter"
 				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 351.79 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe89b8ee-9e91-46c3-be8f-c894c33621a2")
+		(property "Reference" "D5"
+			(at 354.33 161.6074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 354.33 164.1474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 351.79 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e606941-20ae-4a1f-a9f9-cc4b79cccb57")
+		)
+		(pin "1"
+			(uuid "f9874183-24ac-4c92-9300-5a374d9be90c")
+		)
+		(instances
+			(project "ESP32-Geiger-Counter"
+				(path "/1d04c1b6-b1c1-45fc-a2be-06365cafa415"
+					(reference "D5")
 					(unit 1)
 				)
 			)
