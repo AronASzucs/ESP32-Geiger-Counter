@@ -1,0 +1,11 @@
+# LTspice outputs
+*.raw
+*.log
+*.net
+
+# KiCad local/backup files
+*-backups/
+.history/
+*.kicad_prl
+fp-info-cache
+*.bak
