@@ -6166,6 +6166,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 232.41) (xy 148.59 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26639443-6cfa-4798-bab8-430cc50a7bdf")
+	)
+	(wire
+		(pts
 			(xy 322.58 240.03) (xy 322.58 254)
 		)
 		(stroke
@@ -6203,6 +6213,16 @@
 			(type default)
 		)
 		(uuid "31dd945c-680c-45b5-ab5b-cadd6f058408")
+	)
+	(wire
+		(pts
+			(xy 142.24 240.03) (xy 148.59 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323af922-bf88-44da-8ef8-422f83d83d2e")
 	)
 	(wire
 		(pts
@@ -6396,6 +6416,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 229.87) (xy 148.59 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e21cbce-1ec3-4fe8-9418-c61acb88521c")
+	)
+	(wire
+		(pts
 			(xy 303.53 123.19) (xy 283.21 123.19)
 		)
 		(stroke
@@ -6573,6 +6603,16 @@
 			(type default)
 		)
 		(uuid "62b38d21-f5cb-419a-a764-8a11a7b78056")
+	)
+	(wire
+		(pts
+			(xy 142.24 237.49) (xy 148.59 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62dce0bf-06fa-4b05-bd90-a90de9c2a914")
 	)
 	(wire
 		(pts
@@ -7754,6 +7794,16 @@
 		)
 		(uuid "ff91f15e-fdb2-4226-9326-36b175143ce1")
 	)
+	(label "PULSE"
+		(at 142.24 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02e2a83e-837e-42a7-9323-d1abd1c91703")
+	)
 	(label "D+"
 		(at 190.5 234.95 0)
 		(effects
@@ -7804,6 +7854,16 @@
 		)
 		(uuid "2e3400dc-034f-467a-9683-d4cad54650ea")
 	)
+	(label "HV_SENSE"
+		(at 142.24 232.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ee5a0d4-91dc-4e54-9016-74f3f7b1744f")
+	)
 	(label "D-"
 		(at 182.88 232.41 0)
 		(effects
@@ -7813,6 +7873,16 @@
 			(justify left bottom)
 		)
 		(uuid "33dd0832-6f22-4e00-b4e7-5a78f0943ab3")
+	)
+	(label "HV_PWM"
+		(at 142.24 237.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3679700e-5f23-486b-a32f-b1e962f3cf4a")
 	)
 	(label "BATT"
 		(at 80.01 44.45 0)
@@ -7943,6 +8013,16 @@
 			(justify left bottom)
 		)
 		(uuid "cc4e8bda-9816-4c68-8a0f-4fd5def10f33")
+	)
+	(label "VBAT_SENSE"
+		(at 143.51 229.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db4d09b1-7283-4ed0-a729-edf0050ef633")
 	)
 	(label "VSYS_SW"
 		(at 166.37 41.91 0)
